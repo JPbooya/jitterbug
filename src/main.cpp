@@ -1,12 +1,17 @@
 #include<bn_core.h>
 #include<bn_backdrop.h>
 #include<bn_color.h>
-#include<bn_
+#include <bn_sprite_ptr.h>
+
+#include "bn_sprite_items_bug1.h"
+
 
 int main() {
   bn::core::init();
 
   bn::backdrop::set_color(bn::color(31, 0, 31));
+
+  bn::sprite_ptr ladybug = bn::sprite_items::bug1.create_sprite();
 
   while(true) {
 
