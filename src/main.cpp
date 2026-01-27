@@ -31,7 +31,7 @@ int main() {
       ladybug.set_x(new_x);
       ladybug.set_y(new_y);
     }
-    
+    // lol
     // bn::fixed new_x = ladybug.x() + rng.get_fixed(-1, 1);
     // bn::fixed new_y = ladybug.y() + rng.get_fixed(-1, 1);
 
